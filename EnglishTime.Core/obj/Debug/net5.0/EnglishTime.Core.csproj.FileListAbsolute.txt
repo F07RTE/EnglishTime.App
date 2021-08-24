@@ -1,0 +1,15 @@
+C:\Guilherme\English-Time\Project\EnglishTime.Core\bin\Debug\net5.0\EnglishTime.Core.deps.json
+C:\Guilherme\English-Time\Project\EnglishTime.Core\bin\Debug\net5.0\EnglishTime.Core.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Core\bin\Debug\net5.0\ref\EnglishTime.Core.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Core\bin\Debug\net5.0\EnglishTime.Core.pdb
+C:\Guilherme\English-Time\Project\EnglishTime.Core\bin\Debug\net5.0\EnglishTime.Data.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Core\bin\Debug\net5.0\EnglishTime.Data.pdb
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.csprojAssemblyReference.cache
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.AssemblyInfoInputs.cache
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.AssemblyInfo.cs
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.csproj.CoreCompileInputs.cache
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.csproj.CopyComplete
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\ref\EnglishTime.Core.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Core\obj\Debug\net5.0\EnglishTime.Core.pdb

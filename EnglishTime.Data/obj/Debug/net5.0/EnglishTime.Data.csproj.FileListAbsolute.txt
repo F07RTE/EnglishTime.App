@@ -1,0 +1,15 @@
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.csprojAssemblyReference.cache
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.AssemblyInfoInputs.cache
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.AssemblyInfo.cs
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.csproj.CoreCompileInputs.cache
+C:\Guilherme\English-Time\Project\EnglishTime.Data\bin\Debug\net5.0\EnglishTime.Data.deps.json
+C:\Guilherme\English-Time\Project\EnglishTime.Data\bin\Debug\net5.0\EnglishTime.Data.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Data\bin\Debug\net5.0\ref\EnglishTime.Data.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Data\bin\Debug\net5.0\EnglishTime.Data.pdb
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\ref\EnglishTime.Data.dll
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.pdb
+C:\Guilherme\English-Time\Project\EnglishTime.Data\bin\Debug\net5.0\EnglishTime.Data.runtimeconfig.json
+C:\Guilherme\English-Time\Project\EnglishTime.Data\bin\Debug\net5.0\EnglishTime.Data.runtimeconfig.dev.json
+C:\Guilherme\English-Time\Project\EnglishTime.Data\obj\Debug\net5.0\EnglishTime.Data.genruntimeconfig.cache
