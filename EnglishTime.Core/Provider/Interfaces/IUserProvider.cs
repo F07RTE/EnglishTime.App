@@ -8,6 +8,7 @@ namespace EnglishTime.Core.Provider.Interfaces
     {
         ICollection<User> GetAllUsers();
         User GetUser(int id);
+        bool IsEmailAlreadyRegistered(string email);
         bool CreateUser(User user);
         bool UpdateUser(User user);
         bool DeleteUser(User user);

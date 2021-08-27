@@ -33,7 +33,15 @@ namespace EnglishTime.ApiRest.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_mapper.Map<ICollection<UserDto>>(_provider.GetAllUsers()));
+            try
+            {
+                return Ok(_mapper.Map<ICollection<UserDto>>(_provider.GetAllUsers()));
+            }
+            catch (Exception exception)
+            {
+                _logger.LogError(exception, "Get user exception");
+                return StatusCode(500);
+            }
         }
 
         [HttpGet("{id}", Name = "Get")]
@@ -43,13 +51,14 @@ namespace EnglishTime.ApiRest.Controllers
             {
                 var result = _provider.GetUser(id);
                 if (result != null)
-                    return Ok();
+                    return Ok(result);
 
                 return NotFound();
             }
             catch (Exception exception)
             {
-                throw exception;
+                _logger.LogError(exception, "Get user by id exception");
+                return StatusCode(500);
             }
         }
 
@@ -58,25 +67,40 @@ namespace EnglishTime.ApiRest.Controllers
         {
             try
             {
+                var errors = userDto.VerifyUserParameters();
+                if (errors.Error)
+                    return BadRequest(errors);
+
                 var user = _mapper.Map<User>(userDto);
+                if (_provider.IsEmailAlreadyRegistered(user.Email))
+                    return BadRequest(new ErrorDto { Error = true, Messages = new List<string> { "Email already registered." } });
+
                 var result = _provider.CreateUser(user);
                 if (!result)
-                    return BadRequest();
+                    return StatusCode(500);
 
                 return CreatedAtRoute(nameof(Get), new { id = user.Id }, _mapper.Map<UserDto>(user));
             }
             catch (Exception exception)
             {
-                throw exception;
+                _logger.LogError(exception, "Add user exception");
+                return StatusCode(500);
             }
         }
 
-        [HttpPut]
-        public IActionResult Update(UserDto userDto)
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, UserDto userDto)
         {
             try
             {
-                var userFromDatabase = _provider.GetUser(userDto.Id);
+                var errors = userDto.VerifyUserParameters();
+                if (errors.Error)
+                    return BadRequest(errors);
+
+                if (_provider.IsEmailAlreadyRegistered(userDto.Email))
+                    return BadRequest(new ErrorDto { Error = true, Messages = new List<string> { "Email already registered." } });
+
+                var userFromDatabase = _provider.GetUser(id);
                 if (userFromDatabase == null)
                     return NotFound();
 
@@ -84,13 +108,14 @@ namespace EnglishTime.ApiRest.Controllers
 
                 var result = _provider.UpdateUser(userFromDatabase);
                 if (!result)
-                    return BadRequest();
+                    return StatusCode(500);
 
                 return Ok(_mapper.Map<UserDto>(userFromDatabase));
             }
             catch (Exception exception)
             {
-                throw exception;
+                _logger.LogError(exception, "Update user exception");
+                return StatusCode(500);
             }
         }
 
@@ -103,6 +128,14 @@ namespace EnglishTime.ApiRest.Controllers
                 if (userFromDatabase == null)
                     return NotFound();
 
+                if (patchUser.Operations.Count > 0 && patchUser.Operations[0].path.Equals("/Email"))
+                {
+                    // TODO fix this validation
+                    var email = patchUser.Operations[0].value.ToString();
+                    if (_provider.IsEmailAlreadyRegistered(email))
+                        return BadRequest(new ErrorDto { Error = true, Messages = new List<string> { "Email already registered." } });
+                }
+
                 var userToPatch = _mapper.Map<UserDto>(userFromDatabase);
 
                 patchUser.ApplyTo(userToPatch, ModelState);
@@ -112,15 +145,15 @@ namespace EnglishTime.ApiRest.Controllers
 
                 _mapper.Map(userToPatch, userFromDatabase);
                 var result = _provider.UpdateUser(userFromDatabase);
-
                 if (!result)
-                    return BadRequest();
+                    return StatusCode(500);
 
                 return Ok(_mapper.Map<UserDto>(userFromDatabase));
             }
             catch (Exception exception)
             {
-                throw exception;
+                _logger.LogError(exception, "Update user by patch exception");
+                return StatusCode(500);
             }
         }
 
@@ -135,13 +168,14 @@ namespace EnglishTime.ApiRest.Controllers
 
                 var result = _provider.DeleteUser(userFromDatabase);
                 if (!result)
-                    return BadRequest();
+                    return StatusCode(500);
 
                 return NoContent();
             }
             catch (Exception exception)
             {
-                throw exception;
+                _logger.LogError(exception, "Delete user exception");
+                return StatusCode(500);
             }
         }
 

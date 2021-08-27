@@ -27,6 +27,14 @@ namespace EnglishTime.Core.Provider
             return _userRepository.Get(id);
         }
 
+        public bool IsEmailAlreadyRegistered(string email)
+        {
+            if(_userRepository.GetByEmail(email) == null)
+                return false;
+            
+            return true;
+        }
+
         public bool CreateUser(User user)
         {   
             _userRepository.Create(user);

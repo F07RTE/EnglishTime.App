@@ -8,6 +8,7 @@ namespace EnglishTime.Data.Model
         public int Id { get; set; }
 
         [MaxLength(300)]
+        [Required]
         public string Name { get; set; }
        
         [MaxLength(250)]

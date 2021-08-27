@@ -4,7 +4,6 @@ using System.Linq;
 
 using EnglishTime.Data.Model;
 using EnglishTime.Data.SqlServer.Interfaces;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace EnglishTime.Data.SqlServer
 {
@@ -23,7 +22,12 @@ namespace EnglishTime.Data.SqlServer
 
         public User Get(int id)
         {
-            return _context.User.Single(p => p.Id == id);
+            return _context.User.SingleOrDefault(p => p.Id == id);
+        }
+
+        public User GetByEmail(string email)
+        {
+            return _context.User.SingleOrDefault(p => p.Email.Equals(email));
         }
 
         public void Create(User user)

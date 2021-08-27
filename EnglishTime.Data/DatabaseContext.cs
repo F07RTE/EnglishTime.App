@@ -4,11 +4,18 @@ using EnglishTime.Data.Model;
 
 namespace EnglishTime.Data
 {
-    public class DatabaseContext: DbContext
+    public class DatabaseContext : DbContext
     {
-        public DatabaseContext(DbContextOptions<DatabaseContext> options) : base (options)
+        public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
         {
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<User>()
+                .HasIndex(p => p.Email)
+                .IsUnique();
         }
 
         public DbSet<User> User { get; set; }
