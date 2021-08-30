@@ -23,5 +23,6 @@ namespace EnglishTime.Data
         public DbSet<Role> Role { get; set; }
         public DbSet<Feedback> Feedback { get; set; }
         public DbSet<Story> Story { get; set; }
+        public DbSet<Tip> Tip { get; set; }
     }
 }
