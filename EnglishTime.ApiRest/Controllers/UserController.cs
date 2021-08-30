@@ -182,7 +182,7 @@ namespace EnglishTime.ApiRest.Controllers
         [HttpOptions]
         public IActionResult Resources()
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", new[] { "https://localhost:5001" });
+            Response.Headers.Add("Access-Control-Allow-Origin", new[] { "https://localhost:5002" });
             Response.Headers.Add("Access-Control-Allow-Headers", new[] { "Content-Type: application/json; charset=utf-8" });
             Response.Headers.Add("Access-Control-Allow-Methods", new[] { "GET, POST, PUT, PATCH, DELETE, OPTIONS" });
             Response.Headers.Add("Access-Control-Allow-Credentials", new[] { "false" });

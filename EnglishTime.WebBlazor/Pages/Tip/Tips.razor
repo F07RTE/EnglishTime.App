@@ -1,0 +1,33 @@
+@page "/tip"
+@inject HttpClient Http
+
+<h1>Tips of the week</h1>
+
+<p>This component is just fetching some tips.</p>
+
+@if (tips == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>JobTitle</th>                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tip in tips)
+            {
+                <tr>
+                    <td>@tip.Tip</td>
+                    <td>@tip.Description</td>
+                    <td>@tip.Example</td>                    
+                </tr>
+            }
+        </tbody>
+    </table>
+}

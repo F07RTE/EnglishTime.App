@@ -402,8 +402,6 @@ C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\English
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\EnglishTime.WebBlazor.MvcApplicationPartsAssemblyInfo.cache
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\EnglishTime.WebBlazor.RazorComponent.input.cache
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
@@ -415,8 +413,6 @@ C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\English
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\EnglishTime.WebBlazor.TagHelpers.output.cache
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\EnglishTime.WebBlazor.RazorCoreGenerate.cache
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
-C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
@@ -630,3 +626,10 @@ C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\build-g
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\build-gz\bUQLLumZ.gz
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\build-gz\ctUXMOUE.gz
 C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\build-gz\ymcMhzme.gz
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\User\Users.razor.g.cs
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\Pages\User\Users.razor.g.cs
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Http.dll.gz
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Http.dll
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\build-gz\+hUppQzh.gz
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\RazorDeclaration\Pages\Tip\Tips.razor.g.cs
+C:\Guilherme\English-Time\Project\EnglishTime.WebBlazor\obj\Debug\net5.0\Razor\Pages\Tip\Tips.razor.g.cs

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vj6L6f9wxtlRPPwsDsQp5HtegLNgTPaPsrlEKi9XwLEdxqJn8Lg0tZOcGBlZmNLjAvYIcXZuJDGqRJOTn8gKKA==",
+  "dgSpecHash": "rB5N7qz/m7PM7YeyEComrUKoRjAfGmC3bY1Mywgy9wuzWambOp1jRgoQeO5tmo/kUwLNWqmqWCsafhlrkS1+7Q==",
   "success": true,
   "projectFilePath": "C:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\EnglishTime.WebBlazor.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
     "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.http\\5.0.0\\microsoft.extensions.http.5.0.0.nupkg.sha512",
     "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\GuilhermeForte\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

@@ -8,101 +8,68 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 526714620,
+        "HashCode": -1194358313,
         "Kind": "Components.Component",
-        "Name": "EnglishTime.WebBlazor.App",
+        "Name": "EnglishTime.WebBlazor.Pages.User.Users",
         "AssemblyName": "EnglishTime.WebBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Users"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EnglishTime.WebBlazor.App"
+          "Common.TypeName": "EnglishTime.WebBlazor.Pages.User.Users"
         }
       },
       {
-        "HashCode": -1752150693,
+        "HashCode": 89711137,
         "Kind": "Components.Component",
-        "Name": "EnglishTime.WebBlazor.App",
+        "Name": "EnglishTime.WebBlazor.Pages.User.Users",
         "AssemblyName": "EnglishTime.WebBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EnglishTime.WebBlazor.App"
+            "TagName": "EnglishTime.WebBlazor.Pages.User.Users"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EnglishTime.WebBlazor.App",
+          "Common.TypeName": "EnglishTime.WebBlazor.Pages.User.Users",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1251981367,
+        "HashCode": 1249358611,
         "Kind": "Components.Component",
-        "Name": "EnglishTime.WebBlazor.Pages.Counter",
+        "Name": "EnglishTime.WebBlazor.Pages.Tip.Tips",
         "AssemblyName": "EnglishTime.WebBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Tips"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EnglishTime.WebBlazor.Pages.Counter"
+          "Common.TypeName": "EnglishTime.WebBlazor.Pages.Tip.Tips"
         }
       },
       {
-        "HashCode": 200083310,
+        "HashCode": -1400593472,
         "Kind": "Components.Component",
-        "Name": "EnglishTime.WebBlazor.Pages.Counter",
+        "Name": "EnglishTime.WebBlazor.Pages.Tip.Tips",
         "AssemblyName": "EnglishTime.WebBlazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EnglishTime.WebBlazor.Pages.Counter"
+            "TagName": "EnglishTime.WebBlazor.Pages.Tip.Tips"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EnglishTime.WebBlazor.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1205182315,
-        "Kind": "Components.Component",
-        "Name": "EnglishTime.WebBlazor.Pages.FetchData",
-        "AssemblyName": "EnglishTime.WebBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EnglishTime.WebBlazor.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -291414760,
-        "Kind": "Components.Component",
-        "Name": "EnglishTime.WebBlazor.Pages.FetchData",
-        "AssemblyName": "EnglishTime.WebBlazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EnglishTime.WebBlazor.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EnglishTime.WebBlazor.Pages.FetchData",
+          "Common.TypeName": "EnglishTime.WebBlazor.Pages.Tip.Tips",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -136,6 +103,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "EnglishTime.WebBlazor.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 526714620,
+        "Kind": "Components.Component",
+        "Name": "EnglishTime.WebBlazor.App",
+        "AssemblyName": "EnglishTime.WebBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EnglishTime.WebBlazor.App"
+        }
+      },
+      {
+        "HashCode": -1752150693,
+        "Kind": "Components.Component",
+        "Name": "EnglishTime.WebBlazor.App",
+        "AssemblyName": "EnglishTime.WebBlazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EnglishTime.WebBlazor.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EnglishTime.WebBlazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13009,11 +13009,6 @@
   "RootNamespace": "EnglishTime.WebBlazor",
   "Documents": [
     {
-      "FilePath": "c:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "c:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
@@ -13029,8 +13024,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
+      "FilePath": "c:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\Pages\\Tip\\Tips.razor",
+      "TargetPath": "Pages\\Tip\\Tips.razor",
       "FileKind": "component"
     },
     {
@@ -13046,6 +13041,11 @@
     {
       "FilePath": "c:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Guilherme\\English-Time\\Project\\EnglishTime.WebBlazor\\Pages\\User\\Users.razor",
+      "TargetPath": "Pages\\User\\Users.razor",
       "FileKind": "component"
     }
   ],
