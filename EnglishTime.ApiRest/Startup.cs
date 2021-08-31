@@ -58,6 +58,8 @@ namespace EnglishTime.ApiRest
 
             services.AddScoped<IUserProvider, UserProvider>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITipProvider, TipProvider>();
+            services.AddScoped<ITipRepository, TipRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

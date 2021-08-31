@@ -9,5 +9,7 @@ public class AutoMapperProfile : Profile {
         CreateMap<UserDto, User>();
         CreateMap<Role, RoleDto>();
         CreateMap<RoleDto, Role>();
+        CreateMap<Tip, TipDto>();
+        CreateMap<TipDto, Tip>();
     }
 }

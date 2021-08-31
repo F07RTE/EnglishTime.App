@@ -14,16 +14,16 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>JobTitle</th>                
+                <th>Phrase</th>
+                <th>Description</th>
+                <th>Example</th>                
             </tr>
         </thead>
         <tbody>
             @foreach (var tip in tips)
             {
                 <tr>
-                    <td>@tip.Tip</td>
+                    <td>@tip.Phrase</td>
                     <td>@tip.Description</td>
                     <td>@tip.Example</td>                    
                 </tr>

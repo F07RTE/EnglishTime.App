@@ -7,8 +7,8 @@ namespace EnglishTime.WebBlazor.Pages.Tip.Shared
         [JsonPropertyName("id")]
         public int Id { get; set; }
 
-        [JsonPropertyName("tip")]
-        public string Tip { get; set; }
+        [JsonPropertyName("phrase")]
+        public string Phrase { get; set; }
 
         [JsonPropertyName("description")]
         public string Description { get; set; }

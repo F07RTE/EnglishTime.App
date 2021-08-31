@@ -1,35 +1,49 @@
 using System.Collections.Generic;
 
 using EnglishTime.Core.Provider.Interfaces;
+using EnglishTime.Data.SqlServer.Interfaces;
 using EnglishTime.Data.Model;
 
 namespace EnglishTime.Core.Provider
 {
     public class TipProvider : ITipProvider
     {
+
+        private ITipRepository _tipRepository;
+
+        public TipProvider(
+            ITipRepository tipRepository
+        )
+        {
+            _tipRepository = tipRepository;
+        }
+
         public bool CreateTip(Tip tip)
         {
-            throw new System.NotImplementedException();
+            _tipRepository.Create(tip);
+            return _tipRepository.SaveChanges();
         }
 
         public bool DeleteTip(Tip tip)
         {
-            throw new System.NotImplementedException();
+            _tipRepository.Delete(tip);
+            return _tipRepository.SaveChanges();
         }
 
         public ICollection<Tip> GetAllTips()
         {
-            throw new System.NotImplementedException();
+            return _tipRepository.GetAll();
         }
 
         public Tip GetTip(int id)
         {
-            throw new System.NotImplementedException();
+            return _tipRepository.Get(id);
         }
 
         public bool UpdateTip(Tip tip)
         {
-            throw new System.NotImplementedException();
+            _tipRepository.Update(tip);
+            return _tipRepository.SaveChanges();
         }
     }
 }

@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 
 using EnglishTime.Data.Model;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace EnglishTime.Data.SqlServer.Interfaces
 {

@@ -44,8 +44,8 @@ namespace EnglishTime.ApiRest.Controllers
             }
         }
 
-        [HttpGet("{id}", Name = "Get")]
-        public IActionResult Get(int id)
+        [HttpGet("{id}", Name = "GetUser")]
+        public IActionResult GetUser(int id)
         {
             try
             {
@@ -79,7 +79,7 @@ namespace EnglishTime.ApiRest.Controllers
                 if (!result)
                     return StatusCode(500);
 
-                return CreatedAtRoute(nameof(Get), new { id = user.Id }, _mapper.Map<UserDto>(user));
+                return CreatedAtRoute(nameof(GetUser), new { id = user.Id }, _mapper.Map<UserDto>(user));
             }
             catch (Exception exception)
             {
