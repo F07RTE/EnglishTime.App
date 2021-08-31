@@ -7,3 +7,6 @@ EnglishTime.Data/obj/*
 EnglishTime.WebBlazor/bin/*
 EnglishTime.WebBlazor/obj/*
 EnglishTime.ApiRest/obj/Debug/net5.0/*
+EnglishTime.Core/obj/Debug/net5.0/*
+EnglishTime.Data/obj/Debug/net5.0/*
+EnglishTime.WebBlazor/obj/Debug/net5.0/*
