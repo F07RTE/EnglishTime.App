@@ -39,7 +39,7 @@ namespace EnglishTime.ApiRest.Controllers
             }
             catch (Exception exception)
             {
-                _logger.LogError(exception, "Get tip exception");
+                _logger.LogError(exception, "Get all tips exception");
                 return StatusCode(500);
             }
         }
